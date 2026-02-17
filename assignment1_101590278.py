@@ -39,7 +39,6 @@ print(workout_list)
 
 
 # Step f: Slice the workout_list
-
 # Yoga and running for all friends
 yoga_running = [row[:2] for row in workout_list]
 print("Yoga and running minutes for all friends:")
